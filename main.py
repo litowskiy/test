@@ -12,3 +12,7 @@ def summ(a,b):
 @countAndSay
 def mult(a,b):
     return print(a*b)
+
+@countAndSay
+def divide(a,b):
+    return print(a/b)
