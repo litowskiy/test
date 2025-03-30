@@ -6,7 +6,9 @@ def countAndSay(func):
     return wrapper
 
 @countAndSay
-def foo(a,b):
+def summ(a,b):
     return print(a+b)
 
-foo(1,3)
+@countAndSay
+def mult(a,b):
+    return print(a*b)
